@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+pod ‘CurrencyRequest’ , ‘~> 0.1’
+
+target 'Currency-project3' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for Currency-project3
+
+  target 'Currency-project3Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Currency-project3UITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

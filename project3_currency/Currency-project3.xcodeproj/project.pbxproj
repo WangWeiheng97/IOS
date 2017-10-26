@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		268E3781E359EDDD7DA94DC8 /* libPods-Currency-project3UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 379C925E79585750C5EC382E /* libPods-Currency-project3UITests.a */; };
+		49039DA9DA3579F03EAFD31E /* libPods-Currency-project3Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32A9A8BF3F25B9487DAEF07B /* libPods-Currency-project3Tests.a */; };
+		88C8EF119BAC4AEB9E8155B0 /* libPods-Currency-project3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C5A43714FDD6481FAA44DCB /* libPods-Currency-project3.a */; };
+		F13B597F1F964E0500AEBDF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F13B597E1F964E0500AEBDF4 /* AppDelegate.m */; };
+		F13B59821F964E0500AEBDF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F13B59811F964E0500AEBDF4 /* ViewController.m */; };
+		F13B59851F964E0500AEBDF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13B59831F964E0500AEBDF4 /* Main.storyboard */; };
+		F13B59871F964E0500AEBDF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F13B59861F964E0500AEBDF4 /* Assets.xcassets */; };
+		F13B598A1F964E0500AEBDF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13B59881F964E0500AEBDF4 /* LaunchScreen.storyboard */; };
+		F13B598D1F964E0500AEBDF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F13B598C1F964E0500AEBDF4 /* main.m */; };
+		F13B59971F964E0500AEBDF4 /* Currency_project3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F13B59961F964E0500AEBDF4 /* Currency_project3Tests.m */; };
+		F13B59A21F964E0500AEBDF4 /* Currency_project3UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F13B59A11F964E0500AEBDF4 /* Currency_project3UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F13B59931F964E0500AEBDF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F13B59721F964E0500AEBDF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F13B59791F964E0500AEBDF4;
+			remoteInfo = "Currency-project3";
+		};
+		F13B599E1F964E0500AEBDF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F13B59721F964E0500AEBDF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F13B59791F964E0500AEBDF4;
+			remoteInfo = "Currency-project3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A3F51C0E71A9C4F1A33F5BE /* Pods-Currency-project3Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Currency-project3Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Currency-project3Tests/Pods-Currency-project3Tests.release.xcconfig"; sourceTree = "<group>"; };
+		32A9A8BF3F25B9487DAEF07B /* libPods-Currency-project3Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Currency-project3Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		379C925E79585750C5EC382E /* libPods-Currency-project3UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Currency-project3UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38562881AF15E53A59010398 /* Pods-Currency-project3UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Currency-project3UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Currency-project3UITests/Pods-Currency-project3UITests.release.xcconfig"; sourceTree = "<group>"; };
+		4D563CD6FAE03A4C21B28F24 /* Pods-Currency-project3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Currency-project3.release.xcconfig"; path = "Pods/Target Support Files/Pods-Currency-project3/Pods-Currency-project3.release.xcconfig"; sourceTree = "<group>"; };
+		7EE0D6147819F25F6375BEA5 /* Pods-Currency-project3Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Currency-project3Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Currency-project3Tests/Pods-Currency-project3Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C5A43714FDD6481FAA44DCB /* libPods-Currency-project3.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Currency-project3.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90DC823C52A2F9EAE0B2237 /* Pods-Currency-project3UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Currency-project3UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Currency-project3UITests/Pods-Currency-project3UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F13B597A1F964E0500AEBDF4 /* Currency-project3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Currency-project3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13B597D1F964E0500AEBDF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F13B597E1F964E0500AEBDF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F13B59801F964E0500AEBDF4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F13B59811F964E0500AEBDF4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F13B59841F964E0500AEBDF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F13B59861F964E0500AEBDF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F13B59891F964E0500AEBDF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F13B598B1F964E0500AEBDF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F13B598C1F964E0500AEBDF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F13B59921F964E0500AEBDF4 /* Currency-project3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Currency-project3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13B59961F964E0500AEBDF4 /* Currency_project3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Currency_project3Tests.m; sourceTree = "<group>"; };
+		F13B59981F964E0500AEBDF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F13B599D1F964E0500AEBDF4 /* Currency-project3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Currency-project3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13B59A11F964E0500AEBDF4 /* Currency_project3UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Currency_project3UITests.m; sourceTree = "<group>"; };
+		F13B59A31F964E0500AEBDF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F714924283A9B6B2E4CABF5C /* Pods-Currency-project3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Currency-project3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Currency-project3/Pods-Currency-project3.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F13B59771F964E0500AEBDF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C8EF119BAC4AEB9E8155B0 /* libPods-Currency-project3.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13B598F1F964E0500AEBDF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49039DA9DA3579F03EAFD31E /* libPods-Currency-project3Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13B599A1F964E0500AEBDF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268E3781E359EDDD7DA94DC8 /* libPods-Currency-project3UITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E082D152B045498509962A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C5A43714FDD6481FAA44DCB /* libPods-Currency-project3.a */,
+				32A9A8BF3F25B9487DAEF07B /* libPods-Currency-project3Tests.a */,
+				379C925E79585750C5EC382E /* libPods-Currency-project3UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD2E9CF113F27D8384212E5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F714924283A9B6B2E4CABF5C /* Pods-Currency-project3.debug.xcconfig */,
+				4D563CD6FAE03A4C21B28F24 /* Pods-Currency-project3.release.xcconfig */,
+				7EE0D6147819F25F6375BEA5 /* Pods-Currency-project3Tests.debug.xcconfig */,
+				2A3F51C0E71A9C4F1A33F5BE /* Pods-Currency-project3Tests.release.xcconfig */,
+				E90DC823C52A2F9EAE0B2237 /* Pods-Currency-project3UITests.debug.xcconfig */,
+				38562881AF15E53A59010398 /* Pods-Currency-project3UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F13B59711F964E0500AEBDF4 = {
+			isa = PBXGroup;
+			children = (
+				F13B597C1F964E0500AEBDF4 /* Currency-project3 */,
+				F13B59951F964E0500AEBDF4 /* Currency-project3Tests */,
+				F13B59A01F964E0500AEBDF4 /* Currency-project3UITests */,
+				F13B597B1F964E0500AEBDF4 /* Products */,
+				DD2E9CF113F27D8384212E5A /* Pods */,
+				1E082D152B045498509962A2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F13B597B1F964E0500AEBDF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F13B597A1F964E0500AEBDF4 /* Currency-project3.app */,
+				F13B59921F964E0500AEBDF4 /* Currency-project3Tests.xctest */,
+				F13B599D1F964E0500AEBDF4 /* Currency-project3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F13B597C1F964E0500AEBDF4 /* Currency-project3 */ = {
+			isa = PBXGroup;
+			children = (
+				F13B597D1F964E0500AEBDF4 /* AppDelegate.h */,
+				F13B597E1F964E0500AEBDF4 /* AppDelegate.m */,
+				F13B59801F964E0500AEBDF4 /* ViewController.h */,
+				F13B59811F964E0500AEBDF4 /* ViewController.m */,
+				F13B59831F964E0500AEBDF4 /* Main.storyboard */,
+				F13B59861F964E0500AEBDF4 /* Assets.xcassets */,
+				F13B59881F964E0500AEBDF4 /* LaunchScreen.storyboard */,
+				F13B598B1F964E0500AEBDF4 /* Info.plist */,
+				F13B598C1F964E0500AEBDF4 /* main.m */,
+			);
+			path = "Currency-project3";
+			sourceTree = "<group>";
+		};
+		F13B59951F964E0500AEBDF4 /* Currency-project3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F13B59961F964E0500AEBDF4 /* Currency_project3Tests.m */,
+				F13B59981F964E0500AEBDF4 /* Info.plist */,
+			);
+			path = "Currency-project3Tests";
+			sourceTree = "<group>";
+		};
+		F13B59A01F964E0500AEBDF4 /* Currency-project3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F13B59A11F964E0500AEBDF4 /* Currency_project3UITests.m */,
+				F13B59A31F964E0500AEBDF4 /* Info.plist */,
+			);
+			path = "Currency-project3UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F13B59791F964E0500AEBDF4 /* Currency-project3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F13B59A61F964E0500AEBDF4 /* Build configuration list for PBXNativeTarget "Currency-project3" */;
+			buildPhases = (
+				699D45A711BF57974B0B46B6 /* [CP] Check Pods Manifest.lock */,
+				F13B59761F964E0500AEBDF4 /* Sources */,
+				F13B59771F964E0500AEBDF4 /* Frameworks */,
+				F13B59781F964E0500AEBDF4 /* Resources */,
+				DBCB985C24B331BF3962BEDC /* [CP] Embed Pods Frameworks */,
+				9216BB5B99BC86F367B9058B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Currency-project3";
+			productName = "Currency-project3";
+			productReference = F13B597A1F964E0500AEBDF4 /* Currency-project3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F13B59911F964E0500AEBDF4 /* Currency-project3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F13B59A91F964E0500AEBDF4 /* Build configuration list for PBXNativeTarget "Currency-project3Tests" */;
+			buildPhases = (
+				5B2609097BEB2DD6F58D3B29 /* [CP] Check Pods Manifest.lock */,
+				F13B598E1F964E0500AEBDF4 /* Sources */,
+				F13B598F1F964E0500AEBDF4 /* Frameworks */,
+				F13B59901F964E0500AEBDF4 /* Resources */,
+				4D0A0A3B7975FE7B671B9FDD /* [CP] Embed Pods Frameworks */,
+				75584CDAA8C75F4D2B8688F8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F13B59941F964E0500AEBDF4 /* PBXTargetDependency */,
+			);
+			name = "Currency-project3Tests";
+			productName = "Currency-project3Tests";
+			productReference = F13B59921F964E0500AEBDF4 /* Currency-project3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F13B599C1F964E0500AEBDF4 /* Currency-project3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F13B59AC1F964E0500AEBDF4 /* Build configuration list for PBXNativeTarget "Currency-project3UITests" */;
+			buildPhases = (
+				7A750BCC5070BCE93F1EB1CA /* [CP] Check Pods Manifest.lock */,
+				F13B59991F964E0500AEBDF4 /* Sources */,
+				F13B599A1F964E0500AEBDF4 /* Frameworks */,
+				F13B599B1F964E0500AEBDF4 /* Resources */,
+				A2D1955BE4F9A38B36BBC85A /* [CP] Embed Pods Frameworks */,
+				9F56EB19D250996663D58372 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F13B599F1F964E0500AEBDF4 /* PBXTargetDependency */,
+			);
+			name = "Currency-project3UITests";
+			productName = "Currency-project3UITests";
+			productReference = F13B599D1F964E0500AEBDF4 /* Currency-project3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F13B59721F964E0500AEBDF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Harvey Wang";
+				TargetAttributes = {
+					F13B59791F964E0500AEBDF4 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					F13B59911F964E0500AEBDF4 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F13B59791F964E0500AEBDF4;
+					};
+					F13B599C1F964E0500AEBDF4 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F13B59791F964E0500AEBDF4;
+					};
+				};
+			};
+			buildConfigurationList = F13B59751F964E0500AEBDF4 /* Build configuration list for PBXProject "Currency-project3" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F13B59711F964E0500AEBDF4;
+			productRefGroup = F13B597B1F964E0500AEBDF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F13B59791F964E0500AEBDF4 /* Currency-project3 */,
+				F13B59911F964E0500AEBDF4 /* Currency-project3Tests */,
+				F13B599C1F964E0500AEBDF4 /* Currency-project3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F13B59781F964E0500AEBDF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13B598A1F964E0500AEBDF4 /* LaunchScreen.storyboard in Resources */,
+				F13B59871F964E0500AEBDF4 /* Assets.xcassets in Resources */,
+				F13B59851F964E0500AEBDF4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13B59901F964E0500AEBDF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13B599B1F964E0500AEBDF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D0A0A3B7975FE7B671B9FDD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Currency-project3Tests/Pods-Currency-project3Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B2609097BEB2DD6F58D3B29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Currency-project3Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		699D45A711BF57974B0B46B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Currency-project3-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75584CDAA8C75F4D2B8688F8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Currency-project3Tests/Pods-Currency-project3Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A750BCC5070BCE93F1EB1CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Currency-project3UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9216BB5B99BC86F367B9058B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Currency-project3/Pods-Currency-project3-resources.sh",
+				"$PODS_CONFIGURATION_BUILD_DIR/CurrencyRequest/CurrencyRequest.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Currency-project3/Pods-Currency-project3-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F56EB19D250996663D58372 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Currency-project3UITests/Pods-Currency-project3UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2D1955BE4F9A38B36BBC85A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Currency-project3UITests/Pods-Currency-project3UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBCB985C24B331BF3962BEDC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Currency-project3/Pods-Currency-project3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F13B59761F964E0500AEBDF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13B59821F964E0500AEBDF4 /* ViewController.m in Sources */,
+				F13B598D1F964E0500AEBDF4 /* main.m in Sources */,
+				F13B597F1F964E0500AEBDF4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13B598E1F964E0500AEBDF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13B59971F964E0500AEBDF4 /* Currency_project3Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13B59991F964E0500AEBDF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13B59A21F964E0500AEBDF4 /* Currency_project3UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F13B59941F964E0500AEBDF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F13B59791F964E0500AEBDF4 /* Currency-project3 */;
+			targetProxy = F13B59931F964E0500AEBDF4 /* PBXContainerItemProxy */;
+		};
+		F13B599F1F964E0500AEBDF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F13B59791F964E0500AEBDF4 /* Currency-project3 */;
+			targetProxy = F13B599E1F964E0500AEBDF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F13B59831F964E0500AEBDF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F13B59841F964E0500AEBDF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F13B59881F964E0500AEBDF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F13B59891F964E0500AEBDF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F13B59A41F964E0500AEBDF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F13B59A51F964E0500AEBDF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F13B59A71F964E0500AEBDF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F714924283A9B6B2E4CABF5C /* Pods-Currency-project3.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Currency-project3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Currency-project3.Currency-project3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F13B59A81F964E0500AEBDF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D563CD6FAE03A4C21B28F24 /* Pods-Currency-project3.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Currency-project3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Currency-project3.Currency-project3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F13B59AA1F964E0500AEBDF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EE0D6147819F25F6375BEA5 /* Pods-Currency-project3Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Currency-project3Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Currency-project3.Currency-project3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Currency-project3.app/Currency-project3";
+			};
+			name = Debug;
+		};
+		F13B59AB1F964E0500AEBDF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A3F51C0E71A9C4F1A33F5BE /* Pods-Currency-project3Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Currency-project3Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Currency-project3.Currency-project3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Currency-project3.app/Currency-project3";
+			};
+			name = Release;
+		};
+		F13B59AD1F964E0500AEBDF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E90DC823C52A2F9EAE0B2237 /* Pods-Currency-project3UITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Currency-project3UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Currency-project3.Currency-project3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Currency-project3";
+			};
+			name = Debug;
+		};
+		F13B59AE1F964E0500AEBDF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38562881AF15E53A59010398 /* Pods-Currency-project3UITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Currency-project3UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Currency-project3.Currency-project3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Currency-project3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F13B59751F964E0500AEBDF4 /* Build configuration list for PBXProject "Currency-project3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13B59A41F964E0500AEBDF4 /* Debug */,
+				F13B59A51F964E0500AEBDF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F13B59A61F964E0500AEBDF4 /* Build configuration list for PBXNativeTarget "Currency-project3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13B59A71F964E0500AEBDF4 /* Debug */,
+				F13B59A81F964E0500AEBDF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F13B59A91F964E0500AEBDF4 /* Build configuration list for PBXNativeTarget "Currency-project3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13B59AA1F964E0500AEBDF4 /* Debug */,
+				F13B59AB1F964E0500AEBDF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F13B59AC1F964E0500AEBDF4 /* Build configuration list for PBXNativeTarget "Currency-project3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13B59AD1F964E0500AEBDF4 /* Debug */,
+				F13B59AE1F964E0500AEBDF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F13B59721F964E0500AEBDF4 /* Project object */;
+}

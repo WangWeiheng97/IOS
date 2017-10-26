@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oNx-0G-A28">
+                                <rect key="frame" x="15" y="157" width="286" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="XeP-kZ-UME">
+                                <rect key="frame" x="0.0" y="242" width="375" height="29"/>
+                                <segments>
+                                    <segment title="Kilometer"/>
+                                    <segment title="Centimeter"/>
+                                    <segment title="Mile"/>
+                                </segments>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gLT-GG-WjB">
+                                <rect key="frame" x="162" y="285" width="51" height="30"/>
+                                <state key="normal" title="Update"/>
+                                <connections>
+                                    <action selector="updateButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FaH-DZ-gKP"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click Update for the Answer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FrO-3Y-FBD">
+                                <rect key="frame" x="80" y="323" width="214" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rp7-kt-zNq">
+                                <rect key="frame" x="315" y="162" width="45" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="XeP-kZ-UME" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0m8-Rb-45J"/>
+                            <constraint firstItem="oNx-0G-A28" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="7uf-F4-0dP"/>
+                            <constraint firstItem="XeP-kZ-UME" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="8XA-Ke-GmF"/>
+                            <constraint firstItem="gLT-GG-WjB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Dph-uY-HSm"/>
+                            <constraint firstItem="FrO-3Y-FBD" firstAttribute="top" secondItem="gLT-GG-WjB" secondAttribute="bottom" constant="8" id="GoA-nS-2Rp"/>
+                            <constraint firstItem="rp7-kt-zNq" firstAttribute="leading" secondItem="oNx-0G-A28" secondAttribute="trailing" constant="15" id="MS3-Z3-FuF"/>
+                            <constraint firstItem="FrO-3Y-FBD" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="RDN-sl-266"/>
+                            <constraint firstItem="gLT-GG-WjB" firstAttribute="top" secondItem="XeP-kZ-UME" secondAttribute="bottom" constant="15" id="Sh6-6h-Jo9"/>
+                            <constraint firstItem="FrO-3Y-FBD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="W4q-xZ-Cun"/>
+                            <constraint firstItem="XeP-kZ-UME" firstAttribute="top" secondItem="oNx-0G-A28" secondAttribute="bottom" constant="55" id="ajY-5D-dDh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XeP-kZ-UME" secondAttribute="trailing" id="cmN-Tk-rx3"/>
+                            <constraint firstItem="XeP-kZ-UME" firstAttribute="top" secondItem="rp7-kt-zNq" secondAttribute="bottom" constant="59" id="f0C-gC-dQ1"/>
+                            <constraint firstItem="XeP-kZ-UME" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="f56-0s-ohA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rp7-kt-zNq" secondAttribute="trailing" constant="15" id="kyh-bZ-z3g"/>
+                            <constraint firstItem="XeP-kZ-UME" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tF0-KM-yOI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="inputField" destination="oNx-0G-A28" id="3ip-6C-pt0"/>
+                        <outlet property="outputField" destination="FrO-3Y-FBD" id="rfU-5D-ykj"/>
+                        <outlet property="segmentController" destination="XeP-kZ-UME" id="VlS-bd-QlG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>
