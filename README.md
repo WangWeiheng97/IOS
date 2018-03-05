@@ -1,1 +1,1 @@
-IOS project Coursera
+IOS project
