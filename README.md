@@ -1,2 +1,2 @@
 # IOS Projects
-## This repository contains three major ios projects
+## This repository contains one test project and three major projects
